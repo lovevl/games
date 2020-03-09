@@ -1,0 +1,47 @@
+
+.foot {
+    width: 100%;
+    background-color: #000;
+    padding: 20px 0 0;
+    font-family: inherit;
+}
+.foot .content_f {
+    font-family: pingfang,'Microsoft YaHei',微软雅黑,\9ed1\4f53,\5b8b\4f53,'Microsoft JhengHei',华文细黑,STHeiti,MingLiu;
+    width: 1200px;
+    margin: 0 auto;
+}
+.foot_top {
+    border-bottom: 1px solid rgba(82,82,82,.5);
+    padding-bottom: 20px;
+    position: relative;
+}
+.foot .link_list {
+    margin-right: 80px;
+    float: left;
+}
+.foot .first_li {
+    margin-bottom: 15px;
+}
+.foot .tel {
+    text-align: center;
+}
+.foot .tel p {
+    color: #7c7c7c;
+}
+.foot .copyright {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #fff;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.clear:after {
+    clear: both;
+    content: '\0020';
+    visibility: hidden;
+    height: 0;
+}
+.clear:after, br, header h1 a {
+    display: block;
+}
